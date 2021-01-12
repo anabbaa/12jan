@@ -9,11 +9,13 @@ for (let i=1; i<=10; i++){console.log(`${i} * 7 = ${i * 7}`);
 };
 
 //3
-function sum(z,x,)
-
+function sum(z,x){
+    return sum = 365 * z * x;}
+    
+console.log(sum(25,2));
 //4
 const month = ["january", "febraury", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"];
-for(let i=0; i < month.length; i++){console.log(month0);};
+for (let i=0; i < month.length; i++){console.log(month[i][1]);};
 
 //5
 const str = ("hi my name is ahmed", "i") 
