@@ -15,8 +15,11 @@ function sum(z,x){
 console.log(sum(25,2));
 //4
 const month = ["january", "febraury", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"];
-for (let i=0; i < month.length; i++){console.log(month[i][1]);};
-
+let text8 = "";
+for (let i=0; i < month.length; i++){ for(let j=1; j<=12; j++) {
+    text8 += j + " ";}
+};
+console.log(text8);
 //5
 const str = ("hi my name is ahmed", "i") 
 {let stra = str.split("");
@@ -68,7 +71,7 @@ for( let i=0; i< product.length; i++){
         
     };
 };
-console.log(text6("apples"));
+
 
 
 
