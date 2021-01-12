@@ -2,15 +2,31 @@
 for (i=0; i<=10; i++)
 {if (i<=0) {console.log(true);} else {console.log(false);};}
 //2
+let text7 ="";
+for (let i=1; i<=10; i++){console.log(`${i} * 7 = ${i * 7}`);
+}{
+    text7 += + "your dog age in human age";
+};
 
 //3
+function sum(z,x,)
+
 //4
-const month = ["january", "febraury", "march", "april", "may", "june", "july", "august", "aeptember", "october", "november", "december"];
-for(i=0; i < month.length; i++){console.log(month[0]);};
+const month = ["january", "febraury", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"];
+for(let i=0; i < month.length; i++){console.log(month0);};
+
 //5
-const str = ("hi my name is ahmed, i") =>
+const str = ("hi my name is ahmed", "i") 
 {let stra = str.split("");
-console.log(stra);
+let count = 0;
+for (let i = 0; i < stra.length; i++) {
+ if (stra[i] == i) 
+ {count++;}
+  }
+  return count;}
+
+  console.log("count");
+
 
 
 
@@ -18,7 +34,7 @@ console.log(stra);
 //6
 const chr =["T"];
 let text3 = "";
-for (let i = 0; i < chr.length; i++){for(j=0; j<=4; j++){text3 += i + " ";}}
+for (let i = 0; i < chr.length; i++){for(j=0; j<=4; j++){text3 += i + " ";}};
 
 const char =["*"];
 let text4 = "";
@@ -27,6 +43,7 @@ for (let i = 0; i < char.length; i++){for(j=0; j<=4; j++){text4 += i + " ";}}
 const charc =["T"];
 let text5 = "";
 for (let i = 0; i < charc.length; i++){for(j=0; j<=4; j++){text5 += j + " ";}}
+
 
 
 
@@ -39,6 +56,18 @@ for (let i = 0; i <= 5; i++){
 for (let j = 1; j <= i; j++){text2 += i + " ";}}
 //8
 const product = ["egg", "milk", "rice", "oranges", "bananas"];
+let text6 = "";
+for( let i=0; i< product.length; i++){
+    if (product[i].includes) {console.log(true);
+        
+    } else {console.log(false);{
+        text6 += product[i] + " ";
+    }
+        
+    };
+};
+console.log(text6("apples"));
+
 
 
 
